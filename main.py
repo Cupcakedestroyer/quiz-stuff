@@ -1,0 +1,10 @@
+# Ask user for "age in years"
+years = int(input("how old are you in years"))
+print("you've been alive for this amount of days")
+print(years*364)
+print("you've been alive for this amount of decades")
+print(years/10)
+print("you've been alive for this amount of weeks")
+print(years*364/7)
+print("you've been alive for this amount of minutes")
+print(years*365*24*60)
